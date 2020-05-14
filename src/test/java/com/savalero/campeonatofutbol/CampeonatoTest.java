@@ -31,7 +31,7 @@ public class CampeonatoTest {
 		assertEquals(1,jugador.getDetalles().size());
 		assertEquals(2,detalle.getGoles());
 		assertEquals(2,detalle.getTarjetaAmarilla());
-		assertEquals(2,detalle.getTarjetaRoja());
+		assertEquals(1,detalle.getTarjetaRoja());
 	}
 	
 	@Test
