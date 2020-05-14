@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 import com.sanvalero.campeonatofutbol.model.DetalleJugador;
 import com.sanvalero.campeonatofutbol.model.DetallePartido;
 import com.sanvalero.campeonatofutbol.model.Jugador;
-import com.sanvalero.campeonatofutbol.model.Partido;
 
 public class CampeonatoTest {
 	
