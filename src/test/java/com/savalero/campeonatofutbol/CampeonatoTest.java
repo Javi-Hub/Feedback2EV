@@ -26,9 +26,12 @@ public class CampeonatoTest {
 	
 	@Test
 	public void anadirDetalleJugadorTest() {
-		DetalleJugador detalle = new DetalleJugador(0, 0, 0);
+		DetalleJugador detalle = new DetalleJugador(2, 2, 1);
 		jugador.anadirDetalle(1,1,2);
 		assertEquals(1,jugador.getDetalles().size());
+		assertEquals(2,detalle.getGoles());
+		assertEquals(2,detalle.getTarjetaAmarilla());
+		assertEquals(1,detalle.getTarjetaRoja());
 	}
 	
 	@Test
