@@ -37,7 +37,7 @@ public class CampeonatoTest {
 	@Test
 	public void sumarGolesTest() {
 		int resultado = DetallePartido.sumarGoles(1,2);
-		assertEquals(6, resultado);
+		assertEquals(3, resultado);
 	}
 }
  
